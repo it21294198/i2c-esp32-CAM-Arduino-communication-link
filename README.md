@@ -6,6 +6,13 @@ stateDiagram-v2
     ESP32/CAM --> Arduino: DATA Pin 15
     ESP32/CAM --> Arduino: GROUND Pin
 ```
+
+```mermaid
+    ESP32 (Master)     Arduino (Slave)
+    SDA (PIN 15) ----- SDA (A4/SDA)
+    SCL (PIN 14) ----- SCL (A5/SCL)
+    GND -------------- GND
+```
 ### Demo
 
 ![Demo Image](Demo.png)
